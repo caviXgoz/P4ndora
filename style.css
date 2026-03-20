@@ -14,7 +14,7 @@
             background-color: rgba(0, 0, 0, 0.1);
        }
        header div {
-              text-align: center; /* Alinhamento no meio do header */
+              text-align: center;
        }
        header div a{
         color:white; 
@@ -41,6 +41,7 @@
     border-radius: 50%;
     border: 5px solid #b301b3;
     margin-bottom: 32px;   
+    width: 300px;
 }
 
 #box h1 {
@@ -55,7 +56,7 @@
     line-height: 34px;
     font-weight: normal;
     margin-top: 8px;
-    opacity: 0.8;
+    opacity: 1;
     color:aliceblue
 }
 #box p {
