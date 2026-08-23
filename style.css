@@ -112,3 +112,36 @@
     border-bottom:3px solid var(--subcor);
     color:#b301b3    
 }
+
+.cards {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.card {
+    background-color: purple;
+}
+.card_image img {
+    width: 100%
+}
+
+.card_content, .card_info {
+    padding: 18px;
+}
+.card_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card_price{
+    background-color: purple;
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card {
+    max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
